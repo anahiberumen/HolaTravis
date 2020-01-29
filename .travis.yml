@@ -1,5 +1,9 @@
-email: false
 language: python
-notifications: ~
-python: "-\"3.7\""
-script: "echo \"Hola mundo de travis\""
+python:
+  - "3.7"
+
+script:
+  echo "Hola mundo de travis"
+
+notifications:
+  email: false
